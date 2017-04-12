@@ -1,0 +1,75 @@
+/*Declaração inicial*/
+body{
+    padding-left:0px
+}
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    min-height:450px;
+}
+
+/*Medias queries */
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+.wight100{
+    width: 100%
+}
+.center{
+    text-align: center;
+}
+.imagem{
+    min-height: 340px;
+    border-bottom: 1px solid #ccc;
+
+}
+.minimagem{
+    min-height: 200px;
+    border-bottom: 1px solid #ccc;
+}
+
+button{
+    min-height: 33px;
+}
+.add{
+    font-size: 2em;
+    position: absolute;
+    color: red;
+}
+.jumbotron{
+    background: url("../../imagens/Movie-making4.jpg") center; 
+    color:#fff; 
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    padding-left: 10px;  
+}
+.jumbotron h1{ 
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);  
+}
+a.exibirFavoritos{
+    color:red;
+}
